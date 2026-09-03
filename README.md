@@ -1,1 +1,3 @@
-# 2027-semantics-org.github.io
+# SEMANTiCS 2027
+
+## 23rd International Conference on Semantic Systems

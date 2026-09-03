@@ -1,0 +1,10 @@
+/conf.ini
+conf_local.ini
+.DS_Store
+__tmp
+~$*
+__*
+conf.ini
+_site
+.jekyll-cache
+.vscode

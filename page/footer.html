@@ -1,0 +1,98 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<!-- Cookie Popup -->
+<!-- <div id="cookie-popup" class="cookie-popup">
+	<span class="cookie-text">
+		This website only uses technically necessary cookies.
+		<a class="aa" href="__baseurl__page/privacy_policy">More info</a>.
+	</span>
+	<button id="cookie-btn">Got it</button>
+</div> -->
+
+<footer class="footer-glass pb-4">
+	<div class="container">
+
+		<div class="row gy-4 text-left text-md-start align-items-start footer-grid">
+
+			<div class="col-md-6 mb-4 brand-block">
+				<img id="footer-logo" src="/img/semantics-logo-orange.png" alt="SEMANTiCS Logo" height="60"
+					class="mb-3">
+				<p class="opacity-75" style="font-size: 18px; color: var(--body-alt)">Bridging the Gap Between Curated
+					and Induced Semantics.
+				</p>
+			</div>
+
+			<div class="col-md-3 mb-4">
+				<h6 class="fw-bold mb-3">MORE INFORMATION</h6>
+				<ul class="list-unstyled footer-links">
+					<li><a href="__baseurl__page/edi.html">Equity, Diversity, and Inclusion</a></li>
+					<li><a href="__baseurl__page/commitment-to-resp-ev.html">Responsible Events</a></li>
+					<li><a href="__baseurl__page/coc.html">Code of Conduct</a></li>
+					<li><a href="__baseurl__page/llm-policy.html">LLM Policy</a></li>
+				</ul>
+			</div>
+
+			<div class="col-md-3 mb-4">
+				<h6 class="fw-bold mb-3">FOLLOW US</h6>
+				<div class="footer-social-icons fs-4 mt-2">
+					<a href="https://www.linkedin.com/company/semantics-conf" aria-label="SEMANTiCS on LinkedIn"><i
+							class="bi bi-linkedin" aria-hidden="true"></i></a>
+					<a href="https://www.youtube.com/@semanticsconf" aria-label="SEMANTiCS on YouTube"><i
+							class="bi bi-youtube" aria-hidden="true"></i></a>
+					<a href="https://x.com/semanticsconf" aria-label="SEMANTiCS on X (formerly Twitter)"><i
+							class="bi bi-twitter-x" aria-hidden="true"></i></a>
+					<a href="https://www.facebook.com/groups/semantics.conference/"
+						aria-label="SEMANTiCS on Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+					<a href="https://sigmoid.social/@semantics" aria-label="SEMANTiCS on Mastodon"><i
+							class="bi bi-mastodon" aria-hidden="true"></i></a>
+					<a href="https://bsky.app/profile/semantics-conf.bsky.social" aria-label="SEMANTiCS on Bluesky"><i
+							class="bi bi-bluesky" aria-hidden="true"></i></a>
+				</div>
+			</div>
+
+			<div class="col-md-12 copy-right text-right mt-4 small footer-flat-links" style="color: var(--body-alt);">
+				© SEMANTiCS Conference 2027 <br />
+				<p class="list-unstyled"><a href="__baseurl__page/imprint.html">Imprint</a> | <a
+						href="__baseurl__page/termsofuse.html">Terms of Use</a> | <a
+						href="__baseurl__page/privacy_policy.html">Privacy Policy</a> | <a
+						href="__baseurl__page/contact.html">Contact</a></p>
+			</div>
+
+		</div>
+		<!--<div class="col-s-3 mx-auto"><a class="link-light" href="__baseurl__page/open_science_policy">Open Science Policy</div>-->
+		<!-- <div class="col-s-3 mx-auto"><a class="link-light" href="__baseurl__page/contact">Contact</a></div> -->
+	</div>
+
+	</div>
+</footer>
+
+
+<!-- <script>
+	/* AUTO–EXECUTING COOKIE SCRIPT — WORKS EVEN AFTER jQuery LOAD */
+	(function () {
+
+		function runCookieBanner() {
+			const popup = document.getElementById("cookie-popup");
+			const btn = document.getElementById("cookie-btn");
+			if (!popup || !btn) return;
+
+			const consent = localStorage.getItem("cookieConsent");
+			if (consent !== "true") popup.classList.add("show");
+
+			btn.onclick = function () {
+				localStorage.setItem("cookieConsent", "true");
+				popup.style.display = "none";
+			};
+		}
+
+		// Case 1: footer is injected AFTER page load (via jQuery)
+		if (document.readyState === "complete" || document.readyState === "interactive") {
+			setTimeout(runCookieBanner, 30);
+		}
+		// Case 2: footer is already in DOM on initial page load
+		else {
+			window.addEventListener("DOMContentLoaded", runCookieBanner);
+		}
+
+	})();
+</script> -->

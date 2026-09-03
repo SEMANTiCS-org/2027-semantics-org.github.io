@@ -1,0 +1,84 @@
+table,
+tr,
+td {
+  border: 2px solid var(--semantics-blue-dark);
+  border-collapse: collapse;
+  padding: 15px;
+  font-size: 10pt;
+}
+
+table,
+tr,
+td,
+th {
+  text-align: center;
+}
+
+th {
+  background: var(--semantics-blue-light);
+}
+td,
+th {
+  word-wrap: break-word;
+  max-width: 300px;
+  background: var(--semantics-blue);
+  color: var(--semantics-blue-light);
+  font-weight: 800;
+}
+
+.th-gold {
+  background: var(--semantics-orange);
+  font-size: 11pt;
+  font-weight: 800;
+  color: var(--body);
+}
+
+.td-blue {
+  background: var(--semantics-blue-light);
+  color: var(--body);
+  font-weight: 500;
+}
+
+.td-orange {
+  background: rgb(250, 203, 156);
+  font-weight: 500;
+  color: var(--body);
+}
+.td-gray {
+  background: rgb(216, 216, 216, 0);
+  color: var(--body);
+}
+
+table {
+  /* This creates the single-line border look */
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+table,
+tr {
+  border: none;
+}
+
+@media (max-width: 992px) {
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  th,
+  td {
+    white-space: nowrap;
+    min-width: 120px;
+  }
+
+  .col1,
+  td:nth-child(2) {
+    white-space: normal;
+    min-width: 300px;
+  }
+}
